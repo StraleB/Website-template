@@ -11,8 +11,15 @@ header{
     border-bottom: 2px solid rgb(139, 0, 0);
 }
 
+img[alt="logo"]{
+    height: 91px;
+    width: 210px;
+    margin: 0px 5px;
+}
+
+
 .SignInForm{
-    margin:15px 100px;
+    margin:-80px 240px;
     float:left;
     height:90px;
     width:215px;
@@ -39,6 +46,7 @@ text-decoration: none;
     border:2px solid rgba(0, 0, 0, 0.205);
     color: white;
     font-size: 14px;
+    padding:1px 2px;
 }
 
 .SignInForm button:hover{
@@ -53,16 +61,19 @@ color: rgb(245, 245, 245);
 .menu-list{
     height: 90px;
     float:right;
-    margin: 0px 180px;
+    margin: -95px 180px;
 }
 
 
 .menu-list li {
 list-style: none;
 display: inline-block;
-margin:15px 0;
-background-size:100px 100px;
+margin:0px 0;
 transition: all 0.2s;
+background-size: 280% 200%;
+height: 72px;
+vertical-align: middle;
+padding:20px 0px 0px 0px;
 }
 
 .menu-list li:hover {
@@ -75,4 +86,15 @@ transition: all 0.2s;
     font-family: 'Niramit', sans-serif;
     font-size: 28px;
     margin:10px 10px;
+    
+
 }
+
+.menu-list li:active{
+    background: rgb(129, 2, 2);
+}
+
+.menu-list li:visited{
+background: rgb(119, 15, 15);
+}
+
