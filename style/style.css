@@ -49,3 +49,30 @@ color: rgb(245, 245, 245);
 .SignInForm button:active{
     background:rgb(139, 0, 0);
 }
+
+.menu-list{
+    height: 90px;
+    float:right;
+    margin: 0px 180px;
+}
+
+
+.menu-list li {
+list-style: none;
+display: inline-block;
+margin:15px 0;
+background-size:100px 100px;
+transition: all 0.2s;
+}
+
+.menu-list li:hover {
+   background:rgb(139, 0, 0);
+    }
+
+.menu-list a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Niramit', sans-serif;
+    font-size: 28px;
+    margin:10px 10px;
+}
