@@ -1,0 +1,9 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: rgb(209, 28, 28);
+    height: 70px;
+}
