@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+/*font-family: 'Niramit', sans-serif;*/
 *{
     padding:0;
     margin:0;
@@ -5,5 +7,45 @@
 
 header{
     background-color: rgb(209, 28, 28);
-    height: 70px;
+    height: 90px;
+    border-bottom: 2px solid rgb(139, 0, 0);
+}
+
+.SignInForm{
+    margin:15px 100px;
+    float:left;
+    height:90px;
+    width:215px;
+}
+
+input[placeholder="Input Password"]{
+margin: 10px 0px;
+float: left;
+}
+
+.SignInForm a{
+float: left;
+margin:-9px 0px;
+font-size: 13px;
+font-family: 'Niramit', sans-serif;
+font-weight: bold;
+text-decoration: none;
+}
+
+.SignInForm button{
+    margin:-5px 35px;
+    float: left;
+    background-color: rgb(238, 38, 38);
+    border:2px solid rgba(0, 0, 0, 0.205);
+    color: white;
+    font-size: 14px;
+}
+
+.SignInForm button:hover{
+background:rgb(206, 55, 55);
+color: rgb(245, 245, 245);
+}
+
+.SignInForm button:active{
+    background:rgb(139, 0, 0);
 }
