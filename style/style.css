@@ -6,11 +6,15 @@
 /*font-family: 'Ubuntu', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 /*font-family: 'Poppins', sans-serif;*/
-
-
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+/*font-family: 'PT Sans Narrow', sans-serif;*/
 *{
     padding:0;
     margin:0;
+}
+
+body{
+    background: rgb(221, 221, 221);
 }
 
 /*Header adjustement wtih inputs and menus*/
@@ -164,3 +168,75 @@ color: white;
     background: rgb(134, 0, 0);
     transition: all 0s;
 }
+
+.offers{
+    width: 100%;
+    height: 700px;
+}
+
+article img{
+    margin:-65px 130px;
+    float: left;
+}
+
+.offers article{
+    height: 380px;
+    width: 18%;
+    border:1px solid rgba(0, 0, 0, 0.226);
+    text-align: center;
+    background: white;
+    margin: 65px 40px;
+    transition: all 0.2s;
+}
+
+.offers article:hover{
+    border: 1px solid rgba(255, 0, 0, 0.342);
+}
+
+article h2{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    margin: 22px 0px;
+    width: 100%;
+}
+
+article p{
+    font-family: 'Poppins', sans-serif;
+    margin:35px 0;
+    float: left;
+}
+
+article span{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: red;
+    font-size: 40px;
+    margin:5px 0;
+}
+
+article button{
+    background: rgb(255, 46, 46);
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border:1px solid rgba(0, 0, 0, 0.199);
+    font-size: 25px;
+    position: absolute;
+    margin: 80px -80px;
+    transition: all 0.3s;
+    cursor: pointer;
+    padding:2px 4px;
+}
+
+article:hover button{
+    background:white;
+    color: red;
+    border:1px solid red;
+}
+
+ article button:active{
+    background: rgb(202, 202, 202);
+    transition: none;
+
+}
+
