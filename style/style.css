@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Niramit');
 /*font-family: 'Niramit', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+/*font-family: 'PT Serif', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*font-family: 'Ubuntu', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/*font-family: 'Poppins', sans-serif;*/
+
+
 *{
     padding:0;
     margin:0;
 }
 
+/*Header adjustement wtih inputs and menus*/
 header{
     background-color: rgb(209, 28, 28);
     height: 90px;
     border-bottom: 2px solid rgb(139, 0, 0);
+    width: 100%;
 }
 
 img[alt="logo"]{
@@ -58,6 +68,8 @@ color: rgb(245, 245, 245);
     background:rgb(139, 0, 0);
 }
 
+/*Navbar setup*/
+
 .menu-list{
     height: 90px;
     float:right;
@@ -98,3 +110,57 @@ padding:20px 0px 0px 0px;
 background: rgb(119, 15, 15);
 }
 
+/*Starting image with btns setup*/
+
+.start-img{
+background-image: url("http://cdn.paperhi.com/1920x1080/20130411/minimalistic%20red%20geometry%20simple%20background%20black%20background%20basic%20colors%201920x1080%20wallpaper_www.paperhi.com_10.jpg");
+height: 640px;
+width:100%;
+background-repeat: no-repeat;
+color: white;
+}
+
+/*http://cdn.paperhi.com/1920x1080/20130411/minimalistic%20red%20geometry%20simple%20background%20black%20background%20basic%20colors%201920x1080%20wallpaper_www.paperhi.com_10.jpg*/
+
+.txtandBtns{
+    margin: 200px 40px;
+    float: left;
+}
+
+.txtandBtns h1{
+    font-size: 90px;
+    font-family: 'PT Serif', serif;
+}
+
+.txtandBtns h2{
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.txtandBtns p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.txtandBtns button{
+    margin: 80px 15px;
+    background: transparent;
+    color: white;
+    padding: 5px 6px;
+    font-size: 25px;
+    border:1px solid white;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.txtandBtns button:hover{
+    background: red;
+    color:black;
+}
+
+.txtandBtns button:active{
+    background: rgb(134, 0, 0);
+    transition: all 0s;
+}
