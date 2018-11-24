@@ -369,3 +369,24 @@ img[alt="profilePic"]{
 p img{
     padding-right:5px; 
 }
+
+/*Footer*/
+
+footer{
+    clear: both;
+    margin: 800px 0;
+    background: rgb(34, 34, 34);
+    height: 400px;
+    width: 100%;
+}
+
+.social{
+    width: 20%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 2px 5%;
+}
+
+.social img{
+    margin:20px 5px;
+}
