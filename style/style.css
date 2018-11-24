@@ -390,3 +390,73 @@ footer{
 .social img{
     margin:20px 5px;
 }
+
+.links{
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    margin: -225px 1000px;
+}
+
+.links h2{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.links a{
+    color: red;
+    text-decoration: none;
+    margin: 10px 0;
+    float: left;
+}
+
+.links span{
+padding:1px 160px;
+background: red;
+display:block;
+transform: rotate(180deg);
+-webkit-transform: rotate(180deg); 
+-moz-transform: rotate(180deg); 
+margin: 0px 0px;
+float: left;
+}
+
+.updates{
+    font-family: 'Poppins', sans-serif;
+    width: 18%;
+    margin: -225px 960px;
+}
+
+
+.updates span{
+        padding:1px 160px;
+        background: red;
+        display:block;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg); 
+        -moz-transform: rotate(180deg); 
+        margin: 0px 0px;
+        float: left;
+        }
+
+
+#date{
+    color: rgb(134, 28, 28);
+}
+
+.contact{
+    width: 10%;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: -225px 400px;
+}
+
+.contact input{
+    background:rgb(26, 26, 26);
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 20px;
+    width: 120px;
+}
