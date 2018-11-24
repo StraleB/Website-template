@@ -323,11 +323,49 @@ input[placeholder="Search..."]{
     margin: 310px -220px;
 }
 
+/*Creator section*/
+
+.details{
+margin: 650px 0;
+background:url(https://image.ibb.co/f4Xa0V/260666.jpg)no-repeat;
+background-position:0px -500px ;
+text-align: center;
+height: 300px;
+width: 100%;
+}
+
+.details p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
 
 img[alt="profilePic"]{
     border-radius: 90px;
     border: 1px solid white;
     box-shadow: 2px 2px 10px 1px rgba(56, 41, 41, 0.384);
-    margin: 160px 0px;
+    margin: 10px 0px;
     transition: all 0.3s;
+}
+
+/*Info*/
+
+.infoSection{
+    text-align: center;
+    margin: -600px 0
+}
+
+.infoSection p{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infoSection a{
+    color: red;
+    text-decoration: none;
+}
+
+p img{
+    padding-right:5px; 
 }
