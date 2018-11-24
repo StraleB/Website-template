@@ -122,6 +122,7 @@ height: 640px;
 width:100%;
 background-repeat: no-repeat;
 color: white;
+box-shadow: 2px 7px 18px 1px rgba(0, 0, 0, 0.521);
 }
 
 /*http://cdn.paperhi.com/1920x1080/20130411/minimalistic%20red%20geometry%20simple%20background%20black%20background%20basic%20colors%201920x1080%20wallpaper_www.paperhi.com_10.jpg*/
@@ -170,12 +171,25 @@ color: white;
 }
 
 .offers{
-    width: 100%;
+    width: 62%;
     height: 700px;
+    margin: -100px 18%;
+    float: left;
+}
+
+.offers h1{
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.offers p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
 }
 
 article img{
-    margin:-65px 130px;
+    margin:10px 130px;
     float: left;
 }
 
@@ -185,8 +199,9 @@ article img{
     border:1px solid rgba(0, 0, 0, 0.226);
     text-align: center;
     background: white;
-    margin: 65px 40px;
+    margin: 65px 30px;
     transition: all 0.2s;
+    display: inline-table;
 }
 
 .offers article:hover{
@@ -197,13 +212,13 @@ article h2{
     font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
     float: left;
-    margin: 22px 0px;
+    margin: 18px 0px;
     width: 100%;
 }
 
 article p{
     font-family: 'Poppins', sans-serif;
-    margin:35px 0;
+    margin:12px 0;
     float: left;
 }
 
@@ -212,7 +227,7 @@ article span{
     font-weight: bold;
     color: red;
     font-size: 40px;
-    margin:5px 0;
+    margin:-45px 0;
 }
 
 article button{
@@ -222,7 +237,7 @@ article button{
     border:1px solid rgba(0, 0, 0, 0.199);
     font-size: 25px;
     position: absolute;
-    margin: 80px -80px;
+    margin: 60px -70px;
     transition: all 0.3s;
     cursor: pointer;
     padding:2px 4px;
@@ -239,4 +254,34 @@ article:hover button{
     transition: none;
 
 }
+
+.searchIconBar{
+    background: rgb(228, 2, 2);
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 820px 0;
+    font-size: 30px;
+    border:1px solid black;
+    box-shadow: 2px 5px 12px 1px rgba(0, 0, 0, 0.356); 
+}
+
+.searchIconBar p{
+    margin: 35px 380px;
+    float: left;
+}
+
+input[placeholder="Search..."]{
+    float: right;
+    background:url(https://image.ibb.co/enYTLV/search.png);
+    background-position: 300px 12px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 18%;
+    background-size: 30px 30px;
+    background-color: white;
+   margin: -75px 445px;
+}
+
 
