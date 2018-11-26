@@ -8,6 +8,9 @@
 /*font-family: 'Poppins', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 /*font-family: 'PT Sans Narrow', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+/*font-family: 'Fira Sans', sans-serif;*/
+
 *{
     padding:0;
     margin:0;
@@ -537,4 +540,49 @@ textarea{
 .contact button:active{
     background:rgb(241, 120, 120);
     transition: none;
+}
+
+/*Designing the gallery page*/
+
+/*Gallery section*/
+
+.gallery-section{
+    width: 85%;
+    margin: 85px 18%;
+    float: left;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gallery-section article{
+    width: 380px;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    height: 450px;
+    border:1px solid rgba(255, 0, 0, 0.178);
+}
+
+.gallery-section article img{
+    margin: 5px 40px;
+}
+
+/*Redirect pages*/
+
+.redirect{
+    margin: 140px 40px;
+    font-size: 20px;
+    float: left;
+}
+
+.redirect a{
+    padding-right:4px;
+    color: rgb(184, 56, 56);
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    transition: all 0.3s;
+}
+
+.redirect a:hover{
+    text-decoration: underline white;
 }
