@@ -36,7 +36,7 @@ img[alt="logo"]{
     margin:-80px 240px;
     float:left;
     height:90px;
-    width:215px;
+    width:290px;
 }
 
 input[placeholder="Input Password"]{
@@ -46,7 +46,7 @@ float: left;
 
 .SignInForm a{
 float: left;
-margin:-9px 0px;
+margin:30px -175px;
 font-size: 13px;
 font-family: 'Niramit', sans-serif;
 font-weight: bold;
@@ -54,13 +54,14 @@ text-decoration: none;
 }
 
 .SignInForm button{
-    margin:-5px 35px;
+    margin:-30px 185px;
     float: left;
     background-color: rgb(238, 38, 38);
     border:2px solid rgba(0, 0, 0, 0.205);
     color: white;
     font-size: 14px;
     padding:1px 2px;
+    width: 60px;
 }
 
 .SignInForm button:hover{
