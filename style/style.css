@@ -586,3 +586,26 @@ textarea{
 .redirect a:hover{
     text-decoration: underline white;
 }
+
+
+/*Comments page */
+.comments-section{
+    background: white;
+    width: 90%;
+    margin: 10px auto;
+    height: 400px;
+}
+
+.comments-section h1{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.comments-section p{
+    font-size: 25px;
+    width: 80%;
+   
+    margin: 0px 90px;
+    float: left;
+}
