@@ -219,6 +219,8 @@ box-shadow: 2px 7px 18px 1px rgba(0, 0, 0, 0.521);
     transition: all 0s;
 }
 
+/*Offers section with prices*/
+
 .offers{
     width: 62%;
     height: 700px;
