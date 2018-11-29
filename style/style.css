@@ -29,9 +29,9 @@ header{
 }
 
 img[alt="logo"]{
-    height: 110px;
+    height: 105px;
     width: 125px;
-    margin: -10px 5px;
+    margin: -10px 0px;
 }
 
 
@@ -65,6 +65,7 @@ text-decoration: none;
     font-size: 14px;
     padding:1px 2px;
     width: 60px;
+    outline: none;
 }
 
 .SignInForm button:hover{
@@ -130,13 +131,15 @@ display: inline-block;
 margin:0px 0;
 transition: all 0.2s;
 background-size: 280% 200%;
-height: 72px;
+height: 75px;
 vertical-align: middle;
 padding:20px 0px 0px 0px;
+border-bottom:2px solid transparent;
 }
 
 .menu-list li:hover {
    background:rgb(139, 0, 0);
+   border-bottom: 2px solid white;
     }
 
 .menu-list a{
