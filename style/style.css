@@ -28,6 +28,14 @@ header{
     width: 100%;
 }
 
+#menu-icon{
+	display:none;
+	width: 60px;
+	height: 60px;
+	background:url(https://i.ibb.co/BjGbWkm/menu-button-of-three-horizontal-lines.png)center no-repeat;
+  background-size: 1.5em 1.5em;
+}
+
 img[alt="logo"]{
     height: 105px;
     width: 125px;
@@ -222,9 +230,9 @@ box-shadow: 2px 7px 18px 1px rgba(0, 0, 0, 0.521);
 /*Offers section with prices*/
 
 .offers{
-    width: 62%;
+    width: 72%;
     height: 700px;
-    margin: -100px 18%;
+    margin: -100px 12%;
     float: left;
 }
 
@@ -340,9 +348,9 @@ input[placeholder="Search..."]{
 
 /*Second pack of icons*/
 .scndIconPack{
-    margin:-700px auto;
+    margin:-700px 7%;
     text-align: center;
-    width: 62%;
+    width: 82%;
     height: 700px;
 }
 
@@ -376,13 +384,13 @@ input[placeholder="Search..."]{
 /*Creator section*/
 
 .details{
-margin: 650px 0;
-background:url(https://image.ibb.co/f4Xa0V/260666.jpg)no-repeat;
-background-position:0px -500px ;
-text-align: center;
-height: 300px;
-width: 100%;
-}
+    margin: 700px 0;
+    background: linear-gradient(135deg, #3f231f 0%,#3f231f 49%,#f6290c 1%,#f02f17 41%,#e73827 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    }
+
 
 .details p{
     color: white;
@@ -401,7 +409,7 @@ img[alt="profilePic"]{
 
 .infoSection{
     text-align: center;
-    margin: -600px 0
+    margin: -600px 0;
 }
 
 .infoSection p{
@@ -445,7 +453,7 @@ footer{
     width: 20%;
     font-family: 'Poppins', sans-serif;
     float: right;
-    margin: -225px 1000px;
+    margin: -225px 900px;
 }
 
 .links h2{
@@ -474,7 +482,7 @@ float: left;
 .updates{
     font-family: 'Poppins', sans-serif;
     width: 18%;
-    margin: -225px 960px;
+    margin: -225px 880px;
 }
 
 
@@ -499,7 +507,7 @@ float: left;
     float: right;
     font-family: 'Poppins', sans-serif;
     color: white;
-    margin: -225px 400px;
+    margin: -225px 290px;
 }
 
 .contact input{
