@@ -50,9 +50,21 @@ img[alt="logo"]{
     width:290px;
 }
 
+#checkbox{
+    margin:-55px 170px; 
+    float:left;
+}
+
 input[placeholder="Input Password"]{
 margin: 10px 0px;
 float: left;
+}
+
+label{
+    margin:0px 30px; 
+    font-size: 13px; 
+    font-family: 'Niramit', sans-serif; 
+    font-weight: bold;
 }
 
 .SignInForm a{
