@@ -634,6 +634,11 @@ textarea{
     float: left;
 }
 
+#commentHeading{
+    font-size:50px; 
+    padding-bottom: 20px"
+}
+
 /*forum posts set up*/
 
 .comments-section article{
@@ -673,6 +678,16 @@ position: absolute;
 
 #resultLike, #resultDislike{
     position: absolute;
+}
+
+#resultLike{
+    margin:40px -4px ; 
+}
+
+#resultdislike{
+    cursor: pointer; 
+    float: right;
+    margin: -13px -15px;
 }
 
 .comments-section form{

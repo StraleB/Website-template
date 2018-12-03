@@ -656,16 +656,13 @@ textarea{
 /*Gallery page*/
 
 .gallery-section{
-    width: 90%;
-    margin: 85px 10%;
+    width: 85%;
+    margin: 85px 0%;
     float: left;
     text-align: center;
     font-family: 'Fira Sans', sans-serif;
 }
 
-#arTrd{
-    position: absolute;
-}
 
 #rmOne{
     margin: 70px -70px;
@@ -707,6 +704,7 @@ margin: 55px -60px;
         font-size: 15px;
     }
 
+  
 }
 
 /*Set up for tablet*/
@@ -1045,5 +1043,70 @@ textarea{
     transition: ease-in 0.25s;
     padding: 2px 3px;
 }
+/*Gallery Page*/
+
+.gallery-section{
+    width: 100%;
+    margin: 85px 1%;
+    float: left;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gallery-section article{
+    width: 90%;
+    background: white;
+    text-align: center;
+    display: inline-table;
+    height: 240px;
+    margin: 40px 0;
+}
+
+.gallery-section article button{
+    font-size: 18px;
+}
+
+#arTwo{
+display: none;
+}
+
+#arTrd{
+    display: none;
+}
+
+/*Forum*/
+
+#commentHeading{
+    float: left;
+    margin: 0px 60px;
+    width: 100%;
+    font-size: 40px;
+}
+
+.comments-section p{
+    font-size: 20px;
+    float: right;
+    margin: 2px 65px;
+}
+
+
+.likes{
+    width: 100px;
+    margin: 0px 85%;
+    position: absolute;
+    font-size: 15px;
+    }
+
+    #resultdislike{
+        cursor: pointer; 
+        float: right;
+        margin: -10px -72px;
+    }
+    
+
+    .comments-section article p{
+        margin: -60px 90%;
+        font-size: 15px;
+    }
 
 }

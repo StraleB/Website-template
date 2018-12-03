@@ -9,15 +9,72 @@
     <title>Forum</title>
 </head>
 <style>
+
+#fr-cm-hd{
+    margin:0px 180px; 
+    font-size: 40px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.comments-section textarea{
+    outline:none; 
+    height: 200px; 
+    width: 450px; 
+    color: black; 
+    background: white; 
+    border:1px solid rgba(0, 0, 0, 0.397);
+}
+
+input[type="submit"]{
+    font-size: 20px; 
+    margin:0px 389px;
+}
+
+input[placeholder="Username"]{
+    outline:none; 
+    height: 30px; 
+    margin: 0px 41px; 
+     width: 200px
+}
+
+input[placeholder="Enter e-mail"]{
+    outline:none; 
+    height: 30px; 
+    width: 200px
+}
         @media screen and (max-width:1050px){
          
-        
+            input[placeholder="Enter e-mail"]{
+    outline:none; 
+    height: 20px; 
+    width: 150px
+}
+
+input[type="submit"]{
+    font-size: 18px; 
+    margin:-980px 349px;
+    float: left;
+}
+
+
+input[placeholder="Username"]{
+    outline:none; 
+    height: 20px; 
+    margin:1140px 21px; 
+     width: 150px
+}
+
         .links{
             width: 20%;
             float: right;
             margin: -225px 540px;
         }
         
+        #fr-cm-hd{
+    margin: 0px 40px;
+    float: left;
+    font-size: 25px;
+}
         
         .updates{
             font-family: 'Poppins', sans-serif;
@@ -30,8 +87,164 @@
             width: 10%;
             margin: -225px 150px;
         }
-        
+
+.comments-section textarea{
+    outline:none; 
+    height: 150px; 
+    width: 350px; 
+    margin: -1120px 60px;
+}
+
         }
+
+@media screen and (max-width: 691px){
+    #checkbox{
+margin:-18px 85px;
+height: 12px;
+}
+
+input[placeholder="Username"]{
+    outline:none; 
+    height: 20px; 
+    margin:10px 0px; 
+     width: 150px
+}
+
+.comments-section textarea{
+    outline:none; 
+    height: 150px; 
+    width: 250px; 
+    margin: 0px 0px;
+}
+
+/*Footer*/
+
+footer{
+    clear: both;
+    margin: 1900px 0;
+    background: rgb(34, 34, 34);
+    height: 900px;
+    width: 100%;
+}
+
+.social{
+    width: 100%;
+    color: white;
+    margin: 2px 1.5%;
+    font-size: 13px;
+}
+
+.social h2{
+    font-size: 18px;
+}
+
+.social p{
+width: 40%;
+}
+
+.social img{
+    margin:20px 3px;
+}
+
+.links{
+    width: 25%;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    margin: 5px 500px;
+}
+
+.links h2{
+    color: white;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.links a{
+    color: red;
+    text-decoration: none;
+    margin: 10px 0;
+    float: left;
+    font-size: 13px;
+    width: 100%;
+}
+
+.links span{
+padding:1px 100px;
+background: red;
+display:block;
+transform: rotate(180deg);
+-webkit-transform: rotate(180deg); 
+-moz-transform: rotate(180deg); 
+margin: 0px 0px;
+float: left;
+}
+
+.updates{
+    font-family: 'Poppins', sans-serif;
+    width: 18%;
+    margin: -423px 73%;
+    font-size: 13px;
+}
+
+.updates span{
+        padding:1px 100px;
+        background: red;
+        display:block;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg); 
+        -moz-transform: rotate(180deg); 
+        margin: 0px 0px;
+        float: left;
+        }
+
+.contact{
+    width: 10%;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: -205px 120px;
+}
+
+.contact h2{
+    font-size: 18px;
+}
+
+.contact input{
+    background:rgb(26, 26, 26);
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    height: 20px;
+    width: 155px;
+    border: transparent;
+    font-size: 15px;
+}
+
+textarea{
+    height: 150px;
+    vertical-align: top;
+    background:rgb(26, 26, 26);
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 4px 0;
+    border: transparent;
+    color: white;
+}
+
+.contact button{
+    background: red;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: transparent;
+    font-size: 20px;
+    outline: none;
+    margin: 2px 0;
+    transition: ease-in 0.25s;
+    padding: 2px 3px;
+}
+
+}
+
         </style>
 <body>
     <header>
@@ -43,7 +256,7 @@
             <input type="password" placeholder="Input Password" required >
              <a href="#">Or register here.</a>
              <label for="checkbox" style="margin:0px 20px; font-size: 13px; font-family: 'Niramit', sans-serif; font-weight: bold;">Remember me </label>
-             <input type="checkbox" style="margin:-57px 180px; float:left;">
+             <input type="checkbox" id="checkbox">
              <button>Sign in</button>
          </form>
         </div>
@@ -85,7 +298,7 @@
 
 <!--Comments section-->
 <div class="comments-section">
-<h1 id="commentHeading" style="font-size:50px; padding-bottom: 20px">Lorem ipsum dolor sit amet</h1>
+<h1 id="commentHeading">Lorem ipsum dolor sit amet</h1>
 
 <p style="font-family: 'PT Sans Narrow', sans-serif;">Et usu amet magna, porro tollit eu ius. Eu partem quaestio honestatis sed, id nec soleat adolescens contentiones. Quis habeo munere ei vix, eum eu mucius discere, brute congue consequat at usu. Pri ei ignota rationibus instructior. Te omnium impetus vim, ea movet consequat sed. Tollit admodum recteque ut cum, solet aperiri intellegat eam id.
 </p>
@@ -97,7 +310,7 @@
 <p style="margin:0px 70px;">Hendrerit. Enim taciti conubia dolor curae; Dictum quam aptent platea elit. Orci vulputate auctor eu ipsum gravida class fames tempor nec hendrerit lacus rhoncus dictum tempus eget justo tristique. Est risus.</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
-<p id="resultLike" style="margin:40px -4px ;">0</p>
+<p id="resultLike">0</p>
 <span id="dislike" style="cursor: pointer; float: right;margin: 0px 50px;">-</span>
 <p id="resultdislike" style="margin:-13px 37px ;">0</p>
 </div>
@@ -110,9 +323,9 @@
 <p style="margin:0px 70px;">Sapien scelerisque, nullam. Quisque varius eleifend auctor viverra arcu. Lobortis purus Nunc blandit malesuada habitant elit facilisi magnis laoreet habitant. Hymenaeos risus scelerisque odio rutrum mattis. Commodo senectus, iaculis. Dui phasellus aenean ipsum accumsan est porta sodales sodales odio.</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
-<p id="resultLike" style="margin:40px -4px ;">0</p>
-<span id="dislike" style="cursor: pointer; float: right;margin: 0px 50px;">-</span>
-<p id="resultdislike" style="margin:-13px 37px ;">0</p>
+<p id="resultLike" >0</p>
+<span id="dislike" style="cursor: pointer; float: right;margin: 0px 50px;";>-</span>
+<p id="resultdislike">0</p>
 </div>
 </article>
 
@@ -123,9 +336,9 @@
 <p style="margin:0px 70px;">Hendrerit. Enim taciti conubia dolor curae; Dictum quam aptent platea elit. Orci vulputate auctor eu ipsum gravida class fames tempor nec hendrerit lacus rhoncus dictum tempus eget justo tristique. Est risus.</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
-<p id="resultLike" style="margin:40px -4px ;">0</p>
+<p id="resultLike">0</p>
 <span id="dislike" style="cursor: pointer; float: right;margin: 0px 50px;">-</span>
-<p id="resultdislike" style="margin:-13px 37px ;">0</p>
+<p id="resultdislike">0</p>
 </div>
 </article>
 
@@ -136,17 +349,18 @@
 <p style="margin:0px 70px;">Suspendisse. Urna cum risus. Vehicula nulla fusce ante non consectetuer felis dignissim porttitor amet sagittis. Velit elit velit. Nisi. Fames etiam vehicula congue facilisi elit senectus senectus. Metus consectetuer Porta</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
-<p id="resultLike" style="margin:40px -4px ;">0</p>
+<p id="resultLike">0</p>
 <span id="dislike" style="cursor: pointer; float: right;margin: 0px 50px;">-</span>
-<p id="resultdislike" style="margin:-13px 37px ;">0</p>
+<p id="resultdislike">0</p>
 </div>
 </article>
-<h2 style="margin:0px 180px; font-size: 40px; font-family: 'Poppins', sans-serif;">Write a comment</h2>
+<h2 id="fr-cm-hd">Write a comment</h2>
+<!--leave a comment-->
 <form action="">
-<input type="text" style="outline:none; height: 30px; width: 200px"placeholder="Enter e-mail" required>
-<input type="text" style="outline:none; height: 30px; margin: 0px 41px; width: 200px" placeholder="Username" required><br>
-<textarea style="outline:none; height: 200px; width: 450px; color: black; background: white; border:1px solid rgba(0, 0, 0, 0.397);"></textarea><br>
-<input type="submit" style="font-size: 20px; margin:0px 389px;">
+<input type="text" placeholder="Enter e-mail" required>
+<input type="text"  placeholder="Username" required><br>
+<textarea ></textarea><br>
+<input type="submit">
 </form>
 
 
