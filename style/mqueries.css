@@ -723,6 +723,16 @@ margin: 55px -60px;
     width: 140px;
 }
 
+.menu-list a{
+    font-size: 24px;
+    margin:10px 15px;
+    text-align: center;
+}
+
+.sub-menu li a{
+    font-size: 20px;
+}
+
 input[placeholder="Input E-Mail"]{
     float: left;
 }
@@ -1076,6 +1086,10 @@ display: none;
 
 /*Forum*/
 
+.comments-section{ 
+    margin: 10px -3px;
+}
+
 #commentHeading{
     float: left;
     margin: 0px 60px;
@@ -1091,7 +1105,7 @@ display: none;
 
 
 .likes{
-    width: 100px;
+    width: 80px;
     margin: 0px 85%;
     position: absolute;
     font-size: 15px;
@@ -1100,12 +1114,12 @@ display: none;
     #resultdislike{
         cursor: pointer; 
         float: right;
-        margin: -10px -72px;
+        margin: -10px -75px;
     }
     
 
     .comments-section article p{
-        margin: -60px 90%;
+        margin: -45px -70%;
         font-size: 15px;
     }
 
