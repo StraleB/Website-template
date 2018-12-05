@@ -592,6 +592,15 @@ textarea{
     margin: 5px 40px;
 }
 
+#rmfive{
+    margin:40px -65px;
+    
+}
+
+#rmsix{
+    margin:15px -63px;
+}
+
 /*Redirect pages*/
 
 .redirect{

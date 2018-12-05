@@ -861,15 +861,11 @@ article button{
 /*Mid Page Search bar*/
 input[placeholder="Search..."]{
     float: right;
-    background:url(https://image.ibb.co/enYTLV/search.png);
     background-position: 92% 6px;
-    background-repeat: no-repeat;
     height: 30px;
     width: 27%;
     background-size: 20px 20px;
-    background-color: white;
    margin: 5px 34%;
-   outline: none;
 }
 
 .searchIconBar p{
@@ -1124,3 +1120,222 @@ display: none;
     }
 
 }
+
+
+/*Design for phone*/
+
+@media screen and (max-width: 474px){
+    
+    .SignInForm input{
+        height: 15px;
+        width: 100px;
+    }
+
+    input[placeholder="Input Password"]{
+        margin: 34px -95px;
+        float: left;
+        }
+
+        input[placeholder="Input E-Mail"]{
+            float: left;
+            margin:0px -10px;
+        }
+       
+        #checkbox{
+            margin:-12px 55px;
+            }
+
+            .SignInForm a{
+                margin:55px -95px;
+                font-size: 11px;
+                }
+        
+                .SignInForm button{
+                    margin:14px 99px;
+                }
+
+                label{
+                    margin: -15px 112px;
+                }
+
+
+                .menu-list{
+                    margin: -95px 5px;
+                }
+                
+/*Offers*/
+
+.offers{
+    width: 100%;
+    margin: -100px 0%;
+    float: left;
+}
+
+.offers h1{
+    font-size: 35px;
+}
+
+.offers p{
+    font-size: 13px;
+    margin: 20px -10px;
+}
+
+article img{
+    margin:10px 145px;
+    float: left;
+}
+
+.offers article{ 
+    width: 20%;
+    margin: 25px 7.4%;
+}
+
+article span{
+    font-size: 25px;  
+    margin:200px -190px;
+}
+
+article button{
+   font-size: 25px;
+    margin: 260px -205px;
+
+}
+
+/*Mid Page Search bar*/
+input[placeholder="Search..."]{
+    float: right;
+    background-position: 92% 6px;
+    height: 30px;
+    width: 40%;
+    background-size: 20px 20px;
+   margin: 5px 30%;
+}
+
+.searchIconBar p{
+    margin: 5px 9%;
+    font-size: 60%;
+}
+
+/*Second icon pack*/
+
+.scndIconPack h1{
+    font-size: 35px;
+}
+
+.scndIconPack p{
+font-size: 13px;
+}
+
+.scndIconPack button{
+    margin: 210px -220px;
+
+}
+
+.scndIconPack article p{
+    padding-left:35px; 
+}
+
+
+/*Footer*/
+
+.social{
+    width: 100%;
+    margin: 2px 2%;
+    font-size: 12px;
+}
+
+.links{
+    width: 40%;
+    margin: 5px 245px;
+}
+
+.updates{
+    width: 40%;
+    margin: -10px 10px;
+    font-size: 12px;
+}
+
+.contact{
+    width: 40%;
+    margin: 15px 242px;
+}
+
+/*Gallery*/
+
+.gallery-section{
+    width: 100%;
+    margin: 85px 0%;
+}
+
+.gallery-section article{
+    width: 80%;
+    background: white;
+    text-align: center;
+    display: inline-table;
+    height: 380px;
+    margin: 40px -5px;
+}
+
+.gallery-section article figcaption{
+    font-size: 14px;
+    width: 90%;
+}
+
+.gallery-section article img{
+    margin: 5px 40px;
+}
+
+#rmOne, #rmfour{
+    margin: 20px -40px;
+}
+
+#rmfive{
+    margin:5px -40px;
+}
+
+/*Forum*/
+#commentHeading{
+    margin: 0px 20px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.comments-section{
+    height: 1950px;
+}
+
+.comments-section p{
+    font-size: 19px;
+    margin: 2px 65px;
+}
+
+.comments-section article p{
+    margin: -45px -65%;
+    font-size: 10px;
+}
+
+.comments-section article{
+    width: 90%;
+    height: 11%;
+    margin:10px 3%;
+}
+
+#comment{
+    font-size: 13px;
+    width: 55%;
+    position: absolute;
+    padding: 2px 2px;
+}
+
+.likes{
+    width: 40px;
+    margin: 100px 73%;
+    position: absolute;
+    font-size: 14px;
+    }
+
+    #email{
+    margin:1585px -220px;
+    }
+
+        }

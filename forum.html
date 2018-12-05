@@ -250,6 +250,58 @@ textarea{
 
 }
 
+@media screen and (max-width: 474px){
+    #checkbox{
+            margin:-17px 55px;
+            }
+            
+            label{
+                     padding-left: 10px;       
+                }
+
+.social{
+    width: 100%;
+    margin: 2px 2%;
+    font-size: 12px;
+}
+
+.links{
+    width: 40%;
+    margin: 5px 265px;
+}
+
+.updates{
+    width: 40%;
+    margin: -10px 8px;
+    font-size: 12px;
+}
+
+.contact{
+    width: 40%;
+    margin: 15px 265px;
+}
+
+
+input[placeholder="Username"]{
+    outline:none; 
+    height: 20px; 
+    margin:1620px 60px; 
+     width: 150px;
+     position: absolute;
+}
+
+input[type="submit"]{
+    font-size: 20px; 
+    margin:20px 185px;
+}
+
+.comments-section textarea{
+    margin:-1500px -120px;
+}
+
+
+}
+
         </style>
 <body>
     <header>
@@ -312,7 +364,7 @@ textarea{
     <img src="https://i.ibb.co/WDTmG63/man.png" height="50" width="50" alt="profilepic">
    <figcaption style="margin:5px 0; font-family: 'Poppins', sans-serif; font-size: 13px;">Posted Thursday 24th November 2018 <br>10:00PM</figcaption>
     <p>by <a href="#">User3334</a></p>
-<p style="margin:0px 70px;">Hendrerit. Enim taciti conubia dolor curae; Dictum quam aptent platea elit. Orci vulputate auctor eu ipsum gravida class fames tempor nec hendrerit lacus rhoncus dictum tempus eget justo tristique. Est risus.</p>
+<p id="comment" style="margin:0px 70px;">Hendrerit. Enim taciti conubia dolor curae; Dictum quam aptent platea elit. Orci vulputate auctor eu ipsum gravida class fames tempor nec hendrerit lacus rhoncus dictum tempus eget justo tristique. Est risus.</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
 <p id="resultLike">0</p>
@@ -325,7 +377,7 @@ textarea{
     <img src="https://i.ibb.co/r4WDThL/girl.png" height="50" width="50" alt="profilepic">
    <figcaption style="margin:5px 0; font-family: 'Poppins', sans-serif; font-size: 13px;">Posted Thursday 10th November 2018 <br>9:00AM</figcaption>
     <p>by <a href="#">User4234</a></p>
-<p style="margin:0px 70px;">Sapien scelerisque, nullam. Quisque varius eleifend auctor viverra arcu. Lobortis purus Nunc blandit malesuada habitant elit facilisi magnis laoreet habitant. Hymenaeos risus scelerisque odio rutrum mattis. Commodo senectus, iaculis. Dui phasellus aenean ipsum accumsan est porta sodales sodales odio.</p>
+<p  id="comment" style="margin:0px 70px;">Sapien scelerisque, nullam. Quisque varius eleifend auctor viverra arcu. Lobortis purus Nunc blandit malesuada habitant elit facilisi magnis laoreet habitant. Hymenaeos risus scelerisque odio rutrum mattis. Commodo senectus, iaculis. Dui phasellus aenean ipsum accumsan est porta sodales sodales odio.</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
 <p id="resultLike" >0</p>
@@ -338,7 +390,7 @@ textarea{
     <img src="https://i.ibb.co/WDTmG63/man.png" height="50" width="50" alt="profilepic">
    <figcaption style="margin:5px 0; font-family: 'Poppins', sans-serif; font-size: 13px;">Posted Thursday 1th November 2018 <br>13:30PM</figcaption>
     <p>by <a href="#">User8234</a></p>
-<p style="margin:0px 70px;">Hendrerit. Enim taciti conubia dolor curae; Dictum quam aptent platea elit. Orci vulputate auctor eu ipsum gravida class fames tempor nec hendrerit lacus rhoncus dictum tempus eget justo tristique. Est risus.</p>
+<p id="comment" style="margin:0px 70px;">Hendrerit. Enim taciti conubia dolor curae; Dictum quam aptent platea elit. Orci vulputate auctor eu ipsum gravida class fames tempor nec hendrerit lacus rhoncus dictum tempus eget justo tristique. Est risus.</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
 <p id="resultLike">0</p>
@@ -351,7 +403,7 @@ textarea{
     <img src="https://i.ibb.co/r4WDThL/girl.png" height="50" width="50" alt="profilepic">
    <figcaption style="margin:5px 0; font-family: 'Poppins', sans-serif; font-size: 13px;">Posted Thursday 1th November 2018 <br>13:30PM</figcaption>
     <p>by <a href="#">User8234</a></p>
-<p style="margin:0px 70px;">Suspendisse. Urna cum risus. Vehicula nulla fusce ante non consectetuer felis dignissim porttitor amet sagittis. Velit elit velit. Nisi. Fames etiam vehicula congue facilisi elit senectus senectus. Metus consectetuer Porta</p>
+<p id="comment" style="margin:0px 70px;">Suspendisse. Urna cum risus. Vehicula nulla fusce ante non consectetuer felis dignissim porttitor amet sagittis. Velit elit velit. Nisi. Fames etiam vehicula congue facilisi elit senectus senectus. Metus consectetuer Porta</p>
 <div class="likes">
 <span id="like" style="margin:2px -10px;">+</span>
 <p id="resultLike">0</p>
@@ -362,7 +414,7 @@ textarea{
 <h2 id="fr-cm-hd">Write a comment</h2>
 <!--leave a comment-->
 <form action="">
-<input type="text" placeholder="Enter e-mail" required>
+<input type="text" id="email" placeholder="Enter e-mail" required>
 <input type="text"  placeholder="Username" required><br>
 <textarea ></textarea><br>
 <input type="submit">
