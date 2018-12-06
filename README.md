@@ -9,4 +9,4 @@ The Icons that were used for the page are made by [FreePik](https://www.flaticon
 
 *And here is how the Page looks like on the phone
 ![alt text](https://i.ibb.co/QvBkLBg/Screenshot-4.png)
-![alt text](https://i.ibb.co/N907wsF/Screenshot-5.png)
+
