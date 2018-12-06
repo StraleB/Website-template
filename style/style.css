@@ -579,6 +579,14 @@ textarea{
     font-family: 'Fira Sans', sans-serif;
 }
 
+#galleryHdng{
+    font-size:50px; 
+    padding-bottom: 50px; 
+    margin:-100px 8%; 
+    width: 100%; 
+    float: right;
+}
+
 .gallery-section article{
     width: 380px;
     background: white;

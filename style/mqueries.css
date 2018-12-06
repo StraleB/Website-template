@@ -274,7 +274,6 @@ float: left;
         position: absolute;
         padding: 5px 35px 5px 5px;
         background:rgb(32, 32, 32);
-        right: 20px;
         top:62px;
         border: 1px solid white;
         border-radius: 2px 0 2px 2px;
@@ -1269,8 +1268,6 @@ font-size: 13px;
 
 .gallery-section article{
     width: 80%;
-    background: white;
-    text-align: center;
     display: inline-table;
     height: 380px;
     margin: 40px -5px;
@@ -1339,3 +1336,79 @@ font-size: 13px;
     }
 
         }
+
+        
+@media screen and (max-width: 450px){
+    .offers article{ 
+        width: 20%;
+        margin: 25px 4.5%;
+    }
+    .searchIconBar p{
+        margin: 5px 6%;
+    }
+
+    .updates{
+        margin: -10px 8px;
+    }
+
+    .links{
+        margin: 5px 228px;
+    }
+
+    .contact{
+        margin: 15px 228px;
+    }
+   
+   
+         .sub-menu{
+        display: none;
+        z-index: 1;
+        margin: -50px -92%;
+    }
+
+    /*Forum*/
+
+    .comments-section article p{
+        margin: -45px -70%;
+    }
+
+    #comment{
+        font-size: 12px;
+        width: 55%;
+        position: absolute;
+        padding: 2px 3px;
+    }
+
+    #email{
+        margin:1385px -220px;
+        }
+
+}
+
+@media screen and (max-width: 435px){
+    .comments-section article{
+        width: 95%;
+        height: 11%;
+        margin:10px 3%;
+    }
+
+    .links{
+        margin: 5px 235px;
+    }
+
+    .contact{
+        margin: 15px 235px;
+    }
+}
+
+@media screen and (max-width: 413px){
+    .gallery-section{
+        width: 100%;
+        margin: 85px -3.5%;
+    }
+    
+    #galleryHdng{
+        font-size: 40px;
+        margin:-100px 0%; 
+    }
+}
